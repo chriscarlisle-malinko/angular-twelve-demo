@@ -1,0 +1,36 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "Aaron Appleby",
+        "email": "aaron@example.com"
+      },
+      {
+        "id": 2,
+        "name": "Boris Banner",
+        "email": "boris@example.com"
+      },
+      {
+        "id": 3,
+        "name": "Carmichael Carter",
+        "email": "carmichael@example.com"
+      }
+    ],
+    "clients": [
+        {
+          "id": 1,
+          "name": "Amy Acker",
+          "telephone": "07971 283639"
+        },
+        {
+          "id": 2,
+          "name": "Belina Benson",
+          "telephone": "01524 811513"
+        },
+        {
+          "id": 3,
+          "name": "Carly Coping",
+          "telephone": "0890 60 60 60"
+        }
+      ]
+  }

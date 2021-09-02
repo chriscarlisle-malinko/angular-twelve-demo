@@ -1,0 +1,10 @@
+<div>
+    <div *ngIf="clients.length === 0"></div>
+
+    <div *ngFor="let client of clients">
+        <div class="mt-4">
+            <div>{{client.name}}</div>
+            <div>{{client.telephone}}</div>
+        </div>
+    </div>
+</div>

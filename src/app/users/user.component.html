@@ -1,0 +1,10 @@
+<div>
+    <div *ngIf="users.length === 0"></div>
+
+    <div *ngFor="let user of users">
+        <div class="mt-4">
+            <div>{{user.name}}</div>
+            <div>{{user.email}}</div>
+        </div>
+    </div>
+</div>
