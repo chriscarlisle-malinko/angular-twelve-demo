@@ -10,7 +10,7 @@ import { retry, catchError } from 'rxjs/operators';
 
 export class DataService {
 
-  private REST_API_SERVER = "http://localhost:3000";
+  private REST_API_SERVER = "http://localhost:3000/api/dashboard";
 
   constructor(private httpClient: HttpClient) { }
 

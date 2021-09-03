@@ -4,9 +4,11 @@ import { UserComponent } from './users/user.component';
 import { ClientComponent } from './clients/client.component'
 
 const routes: Routes = [
-  { path: '', redirectTo: 'users', pathMatch: 'full'},
-  { path: 'users', component: UserComponent },
-  { path: 'clients', component: ClientComponent },
+  { path: 'dashboard', children: [
+    { path: 'dashboard', redirectTo: 'dashboard/users', pathMatch: 'full'},
+    { path: 'users', component: UserComponent },
+    { path: 'clients', component: ClientComponent },
+  ]}
 ];
 
 @NgModule({
