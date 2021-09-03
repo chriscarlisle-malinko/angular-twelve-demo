@@ -4,8 +4,8 @@
   "scripts": {
     "ng": "ng",
     "application": "ng serve",
-    "build": "ng build",
-    "watch": "ng build --watch --configuration development",
+    "build": "ng build --configuration=production --deploy-url=/dashboard/",
+    "watch": "ng build --configuration=development --deploy-url=/dashboard/ --watch",
     "json-server": "json-server --watch ./server/database.json"
   },
   "private": true,
